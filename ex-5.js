@@ -21,4 +21,13 @@ const employees = [
   },
 ];
 
-// Start coding here
+employees.pop({
+  name: "Kody",
+  age: 19,
+  hobbies: ["Computer games", "Wakeboard"],
+});
+
+const updateEmployees = employees;
+console.log(updateEmployees);
+
+console.log(employees);
